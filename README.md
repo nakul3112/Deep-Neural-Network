@@ -14,40 +14,7 @@ This repository contains implementation for Deep Neural Network on the given dat
 - Training the model with training dataset.
 - Testing the accuracy of model with test dataset.
 
-# Details: 
-The data looks like a "flower" with some red (label y=0) and some blue (y=1) points. The visulaization of the data is shown in figure:
 
-<img src="images/planar-data.png" width="400">
-
-
-The model of neural network for this planar data classification is shown below: 
-
-<img src="images/model.png" width="800">
-
-
-This is the visualization of Gradient Descent algorithm used in Back-Propogation to update the model parameters and hence reduce the error in prediction.
-
-<img src="images/sgd.gif" width="400"> 
-
-
-After training the model with hidden layer of size 4, we get the decision boundary for data as follows:
-
-<img src="images/decisionb_h4.png" width="600">
-
-
-However, we still can perform better by tuning the hidden layer size and plotting the results. Following is the summary of accuracies achieved for different number of hidden layer neuron units.
-
-Accuracy for 1 hidden units: 67.5 %
-Accuracy for 2 hidden units: 67.25 %
-Accuracy for 3 hidden units: 90.75 %
-Accuracy for 4 hidden units: 90.5 %
-Accuracy for 5 hidden units: 91.25 %
-Accuracy for 20 hidden units: 90.0 %
-Accuracy for 50 hidden units: 90.25 % 
-
-Below is the plot of results for each case.
-
-<img src="images/tuningHiddenLayers.png" width="800">
 
 
 ## Dependencies:
